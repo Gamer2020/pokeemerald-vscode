@@ -5,7 +5,16 @@
             "label": "Install agbcc",
             "type": "shell",
             "promptOnClose": true,
-            "options": {"shell": {"executable": "bash.exe", "args": ["-lc"]}},
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
             "command": "cd .. && rm -rf agbcc && git clone https://github.com/pret/agbcc && cd agbcc && ./build.sh && ./install.sh ../${workspaceFolderBasename}",
             "presentation": {
                 "reveal": "always",
@@ -19,7 +28,16 @@
             "label": "Build Debug",
             "type": "shell",
             "promptOnClose": true,
-            "options": {"shell": {"executable": "bash.exe", "args": ["-lc"]}},
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
             "command": "make",
             "args": [
                 "-j32",
@@ -41,7 +59,16 @@
             "label": "Build Release",
             "type": "shell",
             "promptOnClose": true,
-            "options": {"shell": {"executable": "bash.exe", "args": ["-lc"]}},
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
             "command": "make",
             "args": [
                 "-j32"
@@ -58,7 +85,16 @@
             "label": "Build Tools",
             "type": "shell",
             "promptOnClose": true,
-            "options": {"shell": {"executable": "bash.exe", "args": ["-lc"]}},
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
             "command": "make",
             "args": [
                 "-j32",
@@ -76,7 +112,16 @@
             "label": "Clean",
             "type": "shell",
             "promptOnClose": true,
-            "options": {"shell": {"executable": "bash.exe", "args": ["-lc"]}},
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
             "command": "make",
             "args": [
                 "-j32",
@@ -94,7 +139,9 @@
             "label": "mGBA_run",
             "type": "shell",
             "command": "C:/folder-path/mGBA/mGBA.exe",
-            "args": ["pokeemerald.gba"],
+            "args": [
+                "pokeemerald.gba"
+            ],
             "group": "test",
             "isBackground": true
         },
@@ -102,7 +149,10 @@
             "label": "mGBA_debug",
             "type": "shell",
             "command": "C:/folder-path/mGBA/mGBA.exe",
-            "args": ["-g", "pokeemerald.gba"],
+            "args": [
+                "-g",
+                "pokeemerald.gba"
+            ],
             "group": "test",
             "isBackground": true
         }
