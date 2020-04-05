@@ -138,7 +138,12 @@
         {
             "label": "mGBA_run",
             "type": "shell",
-            "command": "C:/folder-path/mGBA/mGBA.exe",
+            "windows": {
+                "command": "/mnt/c/DrivePrograms/mGBA/mGBA.exe",
+            },
+            "linux": {
+                "command": "mgba-qt",
+            },
             "args": [
                 "pokeemerald.gba"
             ],
@@ -148,7 +153,12 @@
         {
             "label": "mGBA_debug",
             "type": "shell",
-            "command": "C:/folder-path/mGBA/mGBA.exe",
+            "windows": {
+                "command": "/mnt/c/DrivePrograms/mGBA/mGBA.exe",
+            },
+            "linux": {
+                "command": "mgba-qt",
+            },
             "args": [
                 "-g",
                 "pokeemerald.gba"
