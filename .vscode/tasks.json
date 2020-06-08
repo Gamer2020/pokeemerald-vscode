@@ -25,6 +25,29 @@
             ]
         },
         {
+            "label": "Update pokeemerald-vscode",
+            "type": "shell",
+            "promptOnClose": true,
+            "windows": {
+                "options": {
+                    "shell": {
+                        "executable": "bash.exe",
+                        "args": [
+                            "-lc"
+                        ]
+                    }
+                }
+            },
+            "command": "cd .. && rm -rf pokeemerald-vscode && git clone https://github.com/Gamer2020/pokeemerald-vscode && cp pokeemerald-vscode/.vscode/ ${workspaceFolderBasename}/.vscode/ -r",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        },
+        {
             "label": "Build Debug",
             "type": "shell",
             "promptOnClose": true,
