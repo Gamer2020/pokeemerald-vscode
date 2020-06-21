@@ -18,3 +18,7 @@ For source level debugging, you will also need the arm-none-eabi-gdb.exe file fr
 ```
 "gdbpath": "C:/DrivePrograms/arm-none-eabi-gdb/arm-none-eabi-gdb.exe"
 ```
+
+# Linux
+
+Please note that somethings in these files are still a work in progres when it comes to linux.
