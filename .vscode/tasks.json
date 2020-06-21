@@ -38,7 +38,7 @@
                     }
                 }
             },
-            "command": "cd .. && rm -rf pokeemerald-vscode && git clone https://github.com/Gamer2020/pokeemerald-vscode && cp pokeemerald-vscode/.vscode/ ${workspaceFolderBasename}/.vscode/ -r",
+            "command": "cd .. && rm -rf pokeemerald-vscode && git clone https://github.com/Gamer2020/pokeemerald-vscode && cp pokeemerald-vscode/.vscode/ ${workspaceFolderBasename}/ -r",
             "presentation": {
                 "reveal": "always",
                 "panel": "new"
