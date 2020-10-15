@@ -162,7 +162,7 @@
             "label": "mGBA_run",
             "type": "shell",
             "windows": {
-                "command": "/mnt/c/DrivePrograms/mGBA/mGBA.exe",
+                "command": "${config:mgba_file}",
             },
             "linux": {
                 "command": "mgba-qt",
@@ -177,7 +177,7 @@
             "label": "mGBA_debug",
             "type": "shell",
             "windows": {
-                "command": "/mnt/c/DrivePrograms/mGBA/mGBA.exe",
+                "command": "${config:mgba_file}",
             },
             "linux": {
                 "command": "mgba-qt",
