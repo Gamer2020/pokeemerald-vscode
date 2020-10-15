@@ -3,9 +3,9 @@ These are files to add to your pokemerald project folder if you are using vscode
 
 # Installation
 
-Installation is simple. All you need to do is copy the ".vscode" folder to the root of your project.
+Installation is simple. All you need to do is copy the ".vscode" folder for your OS to the root of your project.
 
-# Windows
+# WSL
 
 Please note that you will have to edit the folder location for mGBA in the tasks.json file. Simply find and replace the below.
 
