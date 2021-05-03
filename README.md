@@ -21,4 +21,6 @@ For source level debugging, you will also need the arm-none-eabi-gdb.exe file fr
 
 # Linux
 
-Please note that somethings in these files are still a work in progres when it comes to linux.
+<div class="text-red">
+Please note that somethings in these files are still a work in progress when it comes to linux. These are not expected to be working or done!
+</div>
