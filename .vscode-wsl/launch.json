@@ -13,7 +13,7 @@
             "remote": true,
             "cwd": "${workspaceRoot}",
             "windows": {
-                "gdbpath": "C:/DrivePrograms/arm-none-eabi-gdb/arm-none-eabi-gdb.exe",
+                "gdbpath": "C:/Tools/arm-none-eabi-gdb/arm-none-eabi-gdb.exe",
             },
             "linux": {
                 "gdbpath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gdb",

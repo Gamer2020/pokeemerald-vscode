@@ -1,5 +1,5 @@
 {
-    "mgba_file": "/mnt/c/DrivePrograms/mGBA/mGBA.exe",
+    "mgba_file": "/mnt/c/Tools/mGBA/mGBA.exe",
     "terminal.integrated.confirmOnExit": true,
     "files.associations": {
         "*.inc": "arm"

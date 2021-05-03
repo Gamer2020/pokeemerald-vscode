@@ -10,13 +10,13 @@ Installation is simple. All you need to do is copy the ".vscode" folder for your
 Please note that you will have to edit the folder location for mGBA in the tasks.json file. Simply find and replace the below.
 
 ```
-"/mnt/c/DrivePrograms/mGBA/mGBA.exe"
+"/mnt/c/Tools/mGBA/mGBA.exe"
 ```
 
 For source level debugging, you will also need the arm-none-eabi-gdb.exe file from DevkitARM. Edit the below in launch.json to match your location.
 
 ```
-"gdbpath": "C:/DrivePrograms/arm-none-eabi-gdb/arm-none-eabi-gdb.exe"
+"gdbpath": "C:/Tools/arm-none-eabi-gdb/arm-none-eabi-gdb.exe"
 ```
 
 # Linux
