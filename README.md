@@ -11,7 +11,7 @@ Please note that you will have to edit the folder location for mGBA to reflect y
 
 
 ```
-"mgba_file": "/mnt/c/Tools/Program Files/mGBA.exe",
+"mgba_file": "\"/mnt/c/Program Files/mGBA/mGBA.exe\"",
 ```
 
 For source level debugging, you will also need the arm-none-eabi-gdb.exe file from DevkitARM. Edit the below line in settings.json to match your location.
