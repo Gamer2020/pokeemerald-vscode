@@ -7,10 +7,11 @@ Installation is simple. All you need to do is copy the ".vscode" folder for your
 
 # WSL
 
-Please note that you will have to edit the folder location for mGBA in the tasks.json file. Simply find and replace the below.
+Please note that you will have to edit the folder location for mGBA to reflect your location. Please update the below line in the settings.json file.
+
 
 ```
-"/mnt/c/Tools/mGBA/mGBA.exe"
+"mgba_file": "/mnt/c/Tools/Program Files/mGBA.exe",
 ```
 
 For source level debugging, you will also need the arm-none-eabi-gdb.exe file from DevkitARM. Edit the below in launch.json to match your location.
