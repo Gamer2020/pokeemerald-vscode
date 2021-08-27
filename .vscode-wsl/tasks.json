@@ -161,12 +161,7 @@
         {
             "label": "mGBA_run",
             "type": "shell",
-            "windows": {
-                "command": "${config:mgba_file}",
-            },
-            "linux": {
-                "command": "mgba-qt",
-            },
+            "command": "${config:mgba_file}",
             "args": [
                 "pokeemerald.gba"
             ],
@@ -176,41 +171,13 @@
         {
             "label": "mGBA_debug",
             "type": "shell",
-            "windows": {
-                "command": "${config:mgba_file}",
-            },
-            "linux": {
-                "command": "mgba-qt",
-            },
+            "command": "${config:mgba_file}",
             "args": [
                 "-g",
                 "pokeemerald.gba"
             ],
             "group": "test",
             "isBackground": true
-        },
-        {
-            "label": "Add Remotes",
-            "type": "shell",
-            "promptOnClose": true,
-            "windows": {
-                "options": {
-                    "shell": {
-                        "executable": "bash.exe",
-                        "args": [
-                            "-lc"
-                        ]
-                    }
-                }
-            },
-            "command": "git remote add -t battle_engine_v2 battle_engine_v2 https://github.com/DizzyEggg/pokeemerald.git && git remote add -t pokemon_expansion pokemon_expansion https://github.com/DizzyEggg/pokeemerald.git && git remote add -t item_expansion item_expansion https://github.com/DizzyEggg/pokeemerald.git && git remote add -t master pokeemerald-base https://github.com/Gamer2020/pokeemerald-base.git",
-            "presentation": {
-                "reveal": "always",
-                "panel": "new"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
         }
     ]
 }
