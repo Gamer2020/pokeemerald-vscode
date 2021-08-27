@@ -12,12 +12,7 @@
             "target": ":2345",
             "remote": true,
             "cwd": "${workspaceRoot}",
-            "windows": {
-                "gdbpath": "C:/Tools/arm-none-eabi-gdb/arm-none-eabi-gdb.exe",
-            },
-            "linux": {
-                "gdbpath": "/opt/devkitpro/devkitARM/bin/arm-none-eabi-gdb",
-            }
+            "gdbpath": "${config:gdb_file}",
             //"preLaunchTask": "mGBA_debug"
         }
     ]
