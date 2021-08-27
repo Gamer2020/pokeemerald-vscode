@@ -5,6 +5,13 @@ These are files to add to your pokemerald project folder if you are using vscode
 
 Installation is simple. All you need to do is copy the ".vscode" folder for your OS to the root of your project.
 
+Example:
+
+```
+git clone https://github.com/Gamer2020/pokeemerald-vscode
+cp pokeemerald-vscode/.vscode-wsl/ pokeemerald/.vscode/ -r
+```
+
 # WSL
 
 Please note that you will have to edit the folder location for mGBA to reflect your location. Please update the below line in the settings.json file.
@@ -23,5 +30,5 @@ For source level debugging, you will also need the arm-none-eabi-gdb.exe file fr
 # Linux
 
 <div class="text-red">
-Please note that somethings in these files are still a work in progress when it comes to linux. These are not expected to be working or done!
+Not currently here but will be added in the future.
 </div>
