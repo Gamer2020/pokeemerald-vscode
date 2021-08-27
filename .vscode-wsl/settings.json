@@ -1,7 +1,7 @@
 {
     "mgba_file": "C:/Program Files/mGBA.exe",
     "gdb_file": "C:/Tools/arm-none-eabi-gdb/arm-none-eabi-gdb.exe",
-    "terminal.integrated.confirmOnExit": true,
+    "terminal.integrated.confirmOnExit": "always",
     "files.associations": {
         "*.inc": "arm"
     },
