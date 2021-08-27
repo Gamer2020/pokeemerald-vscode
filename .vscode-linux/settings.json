@@ -1,7 +1,0 @@
-{
-    "terminal.integrated.confirmOnExit": true,
-    "files.associations": {
-        "*.inc": "arm"
-    },
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe"
-}
