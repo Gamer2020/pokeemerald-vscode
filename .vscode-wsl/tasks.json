@@ -64,7 +64,8 @@
             "command": "make",
             "args": [
                 "-j32",
-                "DINFO=1"
+                "DINFO=1",
+                "DDEBUGGING=1"
             ],
             "group": {
                 "kind": "build",
